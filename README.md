@@ -1,2 +1,4 @@
 # Lexical-Syntactic-Analysis
-This project is a **PHP 8.1** script that functions as a **filter**, checking the **lexical and syntactic correctness** of input code and generating an **XML representation** of the program.
+This project consists of two components:
+1. **PHP Parser (`parser.php`)** – Checks the **lexical and syntactic correctness** of input code and converts it into an **XML representation**.
+2. **Python Interpreter (`interpret.py`)** – Reads the generated **XML program** and executes its instructions.
